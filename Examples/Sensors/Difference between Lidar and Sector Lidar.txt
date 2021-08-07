@@ -1,0 +1,5 @@
+LIDAR gives the raw data of the Lidar sensor. The car will be able to see where exactly the object is and how far away it is.
+
+SECTOR_LIDAR is a simplified version of LIDAR used in the console. It splits the area around the robot into 8 sectors. The car only knows if an object IS or IS NOT in a sector. May converge faster due to the binary input.
+
+Source: https://github.com/aws-deepracer/aws-deepracer-sensor-fusion-pkg/blob/bafb28c596108a99c20c3bf08641046473200475/sensor_fusion_pkg/src/lidar_overlay.cpp
